@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Опора — массаж спины и шеи в Тюмени</title>
+<style>
+:root{--bg:#f3ece1;--tx:#2b2a26;--mut:#6f6a5f;--ac:#b8542f;--dk:#243a32;--card:#fbf7f0;--bd:#ddd3c2;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1f1c;--tx:#efe9dd;--mut:#a29c8e;--ac:#e27c55;--dk:#e9dfcc;--card:#262a26;--bd:#3a3f3a}}
+:root[data-theme="dark"]{--bg:#1c1f1c;--tx:#efe9dd;--mut:#a29c8e;--ac:#e27c55;--dk:#e9dfcc;--card:#262a26;--bd:#3a3f3a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 -apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:18px 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:6px 0 18px;font-size:14px;color:var(--mut)}
+nav b{font-family:Georgia,serif;font-size:22px;color:var(--dk)}
+.hero{display:grid;gap:24px;align-items:center}
+@media(min-width:760px){.hero{grid-template-columns:1.1fr .9fr}}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:clamp(32px,8vw,52px);line-height:1.08;margin:0 0 14px;color:var(--dk)}
+h1 em{color:var(--ac)}
+.sub{font-size:18px;color:var(--mut);margin:0 0 20px}
+.btn{display:block;background:var(--ac);color:#fff;border:0;border-radius:10px;padding:16px 22px;font-size:17px;font-weight:700;text-align:center;text-decoration:none;cursor:pointer;width:100%}
+@media(min-width:760px){.btn.h{width:auto;display:inline-block}}
+.small{font-size:13px;color:var(--mut);margin-top:10px}
+.ill{background:var(--card);border:1px solid var(--bd);border-radius:24px;padding:10px}
+.ill svg{width:100%;height:auto;display:block}
+.facts{display:grid;gap:12px;margin:34px 0}
+@media(min-width:760px){.facts{grid-template-columns:repeat(3,1fr)}}
+.f{border-top:2px solid var(--dk);padding-top:10px}
+.f big{font-family:Georgia,serif;font-size:30px;color:var(--ac);display:block}
+.f span{color:var(--mut);font-size:15px}
+h2{font-family:Georgia,serif;font-size:28px;margin:8px 0 14px;color:var(--dk)}
+.qz{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:22px;max-width:640px;margin:0 auto 30px}
+.top{display:flex;justify-content:space-between;font-size:13px;color:var(--mut);margin-bottom:8px}
+.bar{height:5px;background:var(--bd);border-radius:9px;margin-bottom:18px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ac);transition:width .3s}
+.q{font-family:Georgia,serif;font-size:23px;line-height:1.25;margin:0 0 6px;color:var(--dk)}
+.hint{color:var(--mut);font-size:14px;margin:0 0 14px}
+.o{display:flex;gap:12px;align-items:center;width:100%;text-align:left;background:var(--bg);color:var(--tx);border:1.5px solid var(--bd);border-radius:12px;padding:13px 14px;margin-bottom:9px;font-size:16px;cursor:pointer}
+.o.on{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 12%,var(--bg))}
+.o i{flex:none;width:20px;height:20px;border:2px solid var(--bd);border-radius:50%}
+.o.m i{border-radius:5px}.o.on i{background:var(--ac);border-color:var(--ac)}
+.row{display:flex;gap:10px;margin-top:6px}.row .btn{flex:1}
+.back{background:none;border:1.5px solid var(--bd);color:var(--mut);border-radius:10px;padding:0 16px;cursor:pointer;font-size:15px}
+.btn:disabled{opacity:.4}
+input{width:100%;padding:14px;font-size:16px;border:1.5px solid var(--bd);border-radius:10px;margin-bottom:10px;background:var(--bg);color:var(--tx)}
+.chips{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.chip{padding:10px 14px;border:1.5px solid var(--bd);border-radius:99px;background:var(--bg);color:var(--tx);cursor:pointer;font-size:15px}.chip.on{border-color:var(--ac);background:var(--ac);color:#fff}
+.err{color:#c0392b;font-size:14px;min-height:20px}
+.gift{background:var(--bg);border-radius:12px;padding:12px 14px;font-size:15px;margin:12px 0}
+.gift li{margin:3px 0}
+footer{text-align:center;color:var(--mut);font-size:13px;padding:10px 0 24px}
+</style></head><body>
+<div class="w">
+<nav><b>Опора</b><span>Тюмень · ежедневно 9:00–21:00</span></nav>
+<div class="hero">
+ <div>
+  <h1>Спина болит после работы? Снимем боль <em>за один сеанс</em></h1>
+  <p class="sub">Лечебный массаж спины и шеи. Мастер сначала находит причину, потом работает именно с ней. Первый визит — скидка 30%.</p>
+  <a class="btn h" href="#quiz">Подобрать программу</a>
+  <p class="small">Квиз 1 минута · диагностика в подарок</p>
+ </div>
+ <div class="ill">
+ <svg viewBox="0 0 400 360" role="img" aria-label="Схема спины с зонами боли">
+  <defs><radialGradient id="g"><stop offset="0" stop-color="#b8542f" stop-opacity=".55"/><stop offset="1" stop-color="#b8542f" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="200" cy="180" r="160" fill="#e8dcc6" opacity=".55"/>
+  <circle cx="200" cy="62" r="34" fill="#d9a98a"/>
+  <path d="M120 130 Q200 96 280 130 L300 250 Q300 330 200 340 Q100 330 100 250 Z" fill="#e2b99b"/>
+  <path d="M120 130 Q90 175 96 250" stroke="#c99676" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M280 130 Q310 175 304 250" stroke="#c99676" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <g fill="#f8efe2" stroke="#b28468" stroke-width="2">
+   <rect x="190" y="104" width="20" height="14" rx="6"/><rect x="190" y="124" width="20" height="14" rx="6"/><rect x="189" y="144" width="22" height="15" rx="6"/><rect x="189" y="165" width="22" height="15" rx="6"/><rect x="188" y="186" width="24" height="16" rx="6"/><rect x="188" y="208" width="24" height="16" rx="6"/><rect x="187" y="230" width="26" height="17" rx="6"/><rect x="187" y="253" width="26" height="17" rx="6"/><rect x="187" y="276" width="26" height="17" rx="6"/>
+  </g>
+  <circle cx="200" cy="122" r="46" fill="url(#g)"/><circle cx="150" cy="150" r="30" fill="url(#g)"/><circle cx="250" cy="150" r="30" fill="url(#g)"/><circle cx="200" cy="262" r="52" fill="url(#g)"/>
+  <text x="270" y="105" font-size="13" fill="#b8542f" font-family="Arial">шея</text>
+  <text x="285" y="275" font-size="13" fill="#b8542f" font-family="Arial">поясница</text>
+ </svg></div>
+</div>
+<div class="facts">
+ <div class="f"><big>1 сеанс</big><span>достаточно, чтобы почувствовать разницу</span></div>
+ <div class="f"><big>15 лет</big><span>средний стаж наших мастеров</span></div>
+ <div class="f"><big>−30%</big><span>на первый визит, если запишетесь сегодня</span></div>
+</div>
+<div id="quiz"><h2 style="text-align:center">Подберём программу под вас</h2>
+<div class="qz" id="qz"></div></div>
+</div>
+<footer>© Студия массажа «Опора», Тюмень</footer>
+<script>
+var S=[
+{q:"Что беспокоит больше всего?",t:"s",o:["Боль в пояснице","Боль в шее и плечах","Головные боли от напряжения","Просто усталость и скованность"]},
+{q:"Когда обычно болит?",t:"m",h:"Можно выбрать несколько",o:["После сидячей работы","По утрам после сна","После тренировок","При смене погоды","Постоянно"]},
+{q:"Как давно это началось?",t:"s",o:["Меньше 2 недель","1–6 месяцев","Больше полугода","Уже несколько лет"]},
+{q:"Была ли травма или диагноз?",t:"s",o:["Нет, ничего такого","Грыжа или протрузия","Сколиоз или остеохондроз","Была травма"]},
+{q:"Какой массаж предпочитаете?",t:"s",o:["Мягкий, расслабляющий","Средний","Глубокий, с проработкой","Не знаю, пусть подберёт мастер"]},
+{q:"Когда удобно прийти?",t:"s",o:["Будни утром","Будни днём","Будни вечером","Выходные"]}];
+var P={0:"Программа «Поясница»: разогрев, глубокая проработка мышц-стабилизаторов, расслабление",1:"Программа «Шея и плечи»: снятие зажимов, работа с трапециями и воротниковой зоной",2:"Программа «Без головной боли»: шейно-воротниковая зона и мягкие техники",3:"Программа «Перезагрузка»: общий восстановительный массаж спины"};
+var i=0,A=[],el=document.getElementById("qz"),ct="Телефон";
+function e(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function bar(){return '<div class="top"><span>Вопрос '+(i+1)+' из '+S.length+'</span><span>'+Math.round(i/S.length*100)+'%</span></div><div class="bar"><i style="width:'+(i/S.length*100)+'%"></i></div>'}
+function show(){
+ if(i==-1)return start();
+ if(i>=S.length)return form();
+ var s=S[i],sel=A[i]||(s.t=="m"?[]:null);
+ var h=bar()+'<p class="q">'+s.q+'</p><p class="hint">'+(s.h||"&nbsp;")+'</p>';
+ s.o.forEach(function(t,k){var on=s.t=="m"?sel.indexOf(t)>-1:sel===t;h+='<button class="o '+(s.t=="m"?"m ":"")+(on?"on":"")+'" data-k="'+k+'"><i></i>'+e(t)+'</button>'});
+ h+='<div class="row">'+(i>0?'<button class="back" id="bk">Назад</button>':'')+(s.t=="m"?'<button class="btn" id="nx"'+(sel.length?'':' disabled')+'>Далее</button>':'')+'</div>';
+ el.innerHTML=h;
+ el.querySelectorAll(".o").forEach(function(b){b.onclick=function(){var v=s.o[+b.dataset.k];
+  if(s.t=="m"){var a=A[i]||[],p=a.indexOf(v);p>-1?a.splice(p,1):a.push(v);A[i]=a;show()}else{A[i]=v;i++;show()}}});
+ var bk=document.getElementById("bk");if(bk)bk.onclick=function(){i--;show()};
+ var nx=document.getElementById("nx");if(nx)nx.onclick=function(){i++;show()};
+}
+function start(){}
+function form(){
+ var idx=S[0].o.indexOf(A[0]),prog=P[idx]||P[3];
+ el.innerHTML='<div class="bar"><i style="width:95%"></i></div><p class="q">Ваша программа готова</p><p class="hint">'+e(prog)+'</p>'+
+ '<div class="gift"><b>Вместе с записью вы получите:</b><ul><li>диагностику осанки в подарок</li><li>скидку 30% на первый сеанс</li><li>чек-лист упражнений для спины</li></ul></div>'+
+ '<input id="nm" placeholder="Ваше имя" autocomplete="name"><input id="ph" type="tel" placeholder="Телефон" autocomplete="tel">'+
+ '<div class="hint" style="margin:0 0 6px">Как с вами связаться?</div><div class="chips" id="ch"></div>'+
+ '<div class="err" id="er"></div><div class="row"><button class="back" id="bk">Назад</button><button class="btn" id="go">Записаться со скидкой</button></div>'+
+ '<p class="small">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>';
+ var c=document.getElementById("ch");["Телефон","WhatsApp","Telegram"].forEach(function(t){var b=document.createElement("button");b.className="chip"+(t==ct?" on":"");b.textContent=t;b.onclick=function(){ct=t;form2()};c.appendChild(b)});
+ document.getElementById("bk").onclick=function(){i=S.length-1;show()};
+ document.getElementById("go").onclick=function(){
+  var n=document.getElementById("nm").value.trim(),p=document.getElementById("ph").value.replace(/\D/g,"");
+  if(!n)return document.getElementById("er").textContent="Введите имя";
+  if(p.length<10)return document.getElementById("er").textContent="Введите корректный телефон";
+  el.innerHTML='<div class="bar"><i style="width:100%"></i></div><p class="q">Спасибо, '+e(n)+'!</p><p>Мы свяжемся с вами через '+e(ct)+' в течение 15 минут, подтвердим время и закрепим скидку 30%.</p>';
+ };
+}
+function form2(){var n=document.getElementById("nm").value,p=document.getElementById("ph").value;form();document.getElementById("nm").value=n;document.getElementById("ph").value=p}
+show();
+</script></body></html>
